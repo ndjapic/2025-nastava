@@ -1,13 +1,22 @@
-\documentclass[11pt,a5paper,addpoints]{exam}
+\documentclass[11pt,a5paper,twoside,addpoints,noanswers]{exam} % задаци
+%\documentclass[11pt,a5paper,twoside,addpoints,answers]{exam} % решења
 
 \usepackage[OT2]{fontenc}
 \usepackage[utf8x]{inputenc}
 \usepackage[serbian]{babel}
-\usepackage{amsmath,amssymb}
+\usepackage{multicol}
+\usepackage{amssymb,amsmath}
 \usepackage{graphicx}
 \usepackage{geometry}
 \geometry{a5paper, margin=1.5cm}
 
+% Макро за јединице мере
+\newcommand{\measure}[2]{\mathrm{#1\,#2}}
+
+% Макро за варијанте (пример: \variant{a}{b}{c})
+\newcommand{\variant}[3]{#1}
+
+% Подешавања за exam
 \renewcommand{\solutiontitle}{\noindent\textrm{Решење:}\enspace}
 \pointsinmargin
 \pointname{}
@@ -20,85 +29,139 @@
 \cfoot[]{Страница \thepage\ од \numpages}
 \addto{\captionsserbian}{\renewcommand{\abstractname}{Упут{}ство}}
 
-\pagestyle{headandfoot}
-\firstpageheadrule
-\firstpageheader{Математика 8}{}{Радни лист – обнављање}
-\runningheader{Обнављање градива 7. разреда}{}{стр. \thepage\ од \numpages}
-\runningheadrule
-\runningfooter{}{}{}
+\title{$\mathrm{VIII}$ разред, варијанта \variant{1}{2}{3}}
+\author{Обнављање градива — Реални бројеви и Питагорина теорема}
+\date{Станишић, август 2025.}
 
 \begin{document}
+\maketitle
+\thispagestyle{headandfoot}
 
 \begin{center}
-\Large \textbf{Радни лист – обнављање градива (7. разред, I квартал)} \\
-\smallskip
-\small Време рада: 45 минута
+\gradetable[h]
 \end{center}
 
 \begin{questions}
 
-% ======= Полиноми =======
+\section{Лакши задаци}
+
+\question[2]
+Израчунај:
+\begin{multicols}{3}
+\begin{parts}
+\part $\sqrt{\variant{36}{49}{64}}$
+\ifprintanswers\else\answerline\fi
+\part $\left|\variant{-12}{15}{-20}\right|$
+\ifprintanswers\else\answerline\fi
+\part $\dfrac{\variant{45}{56}{72}}{\variant{9}{7}{12}}$
+\ifprintanswers\else\answerline\fi
+\end{parts}
+\end{multicols}
+\begin{solution}[\stretch 1]
+\begin{multicols}{3}
+\part $\sqrt{\variant{36}{49}{64}}=\variant{6}{7}{8}$
+\part $\left|\variant{-12}{15}{-20}\right|=\variant{12}{15}{20}$
+\part $\dfrac{\variant{45}{56}{72}}{\variant{9}{7}{12}}=\variant{5}{8}{6}$
+\end{multicols}
+\end{solution}
+
+\question[2]
+Заокружи ирационалан број:  
+$$
+\variant{\sqrt{2},\;\;\tfrac{9}{3},\;\;7}{-5,\;\;\sqrt{18},\;\;2}{\tfrac{4}{5},\;\;\sqrt{5},\;\;1,\!2}
+$$
+\begin{solution}[\stretch 1]
+Ирационалан број је:  
+\variant{$\sqrt{2}$}{$\sqrt{18}$}{$\sqrt{5}$}
+\end{solution}
+
 \question[3]
-Развиј и среди израз:
+Катете правоуглог троугла су дужине
+$\measure{\variant{9}{12}{8}}{cm}$ и
+$\measure{\variant{12}{5}{15}}{cm}$.  
+Израчунај дужину хипотенузе.
+\begin{solution}[\stretch 2]
 \[
-(2x-3)(x+5).
+c=\sqrt{a^2+b^2}=\sqrt{\variant{9^2+12^2}{12^2+5^2}{8^2+15^2}}
+=\sqrt{\variant{81+144}{144+25}{64+225}}
+=\sqrt{\variant{225}{169}{289}}
+=\measure{\variant{15}{13}{17}}{cm}
 \]
-\begin{solution}[\stretch{2}]
-$2x\cdot x+2x\cdot 5-3\cdot x-3\cdot 5=2x^2+10x-3x-15=2x^2+7x-15$.
+\end{solution}
+
+\section{Средњи задаци}
+
+\question[4]
+Допуни табелу:
+$$
+\begin{array}{|c|c|c|}\hline
+x & x^2 & \sqrt{x^2}\\\hline
+\variant{-6}{\tfrac{3}{2}}{-4} & & \\\hline
+\variant{\tfrac{5}{3}}{-2}{1,\!7} & & \\\hline
+\end{array}
+$$
+\begin{solution}[\stretch 2]
+Први ред: $x^2=\variant{36}{\tfrac{9}{4}}{16}$, $\sqrt{x^2}=\variant{6}{\tfrac{3}{2}}{4}$  
+Други ред: $x^2=\variant{\tfrac{25}{9}}{4}{2,\!89}$, $\sqrt{x^2}=\variant{\tfrac{5}{3}}{2}{1,\!7}$
+\end{solution}
+
+\question[4]
+Хипотенуза правоуглог троугла је
+$\measure{\variant{17}{20}{25}}{cm}$, а једна катета
+$\measure{\variant{8}{12}{15}}{cm}$.  
+Израчунај обим и површину троугла.
+\begin{solution}[\stretch 4]
+\begin{align*}
+b &= \sqrt{c^2-a^2} = \sqrt{\variant{17^2-8^2}{20^2-12^2}{25^2-15^2}}
+= \sqrt{\variant{289-64}{400-144}{625-225}}\\
+&= \sqrt{\variant{225}{256}{400}}=\variant{15}{16}{20}\\
+O &= a+b+c = \variant{8+15+17}{12+16+20}{15+20+25}
+=\measure{\variant{40}{48}{60}}{cm}\\
+P &= \tfrac{a\cdot b}{2}=\tfrac{\variant{8\cdot15}{12\cdot16}{15\cdot20}}{2}
+=\measure{\variant{60}{96}{150}}{cm^2}
+\end{align*}
 \end{solution}
 
 \question[3]
-Примени формулу разлике квадрата:
+Израчунај:
 \[
-(5a-2)(5a+2).
+\dfrac{\sqrt{\variant{16}{49}{36}}-\sqrt{\variant{9}{25}{4}}}{\sqrt{\variant{25}{4}{49}}}
 \]
-\begin{solution}[\stretch{1}]
-$(5a)^2-2^2=25a^2-4$.
+\begin{solution}[\stretch 3]
+Бројилац: $\variant{4-3}{7-5}{6-2}=\variant{1}{2}{4}$  
+Именилац: $\variant{5}{2}{7}$  
+Цео израз: $\dfrac{\variant{1}{2}{4}}{\variant{5}{2}{7}}=\variant{\tfrac{1}{5}}{1}{\tfrac{4}{7}}$
 \end{solution}
 
-% ======= Једначине и проценат =======
-\question[4]
-Реши једначину:
-\[
-3(x-4)=2x+1.
-\]
-\begin{solution}[\stretch{2}]
-$3x-12=2x+1 \ \Rightarrow\ 3x-2x=1+12 \ \Rightarrow\ x=13$.
+\section{Тежи задаци}
+
+\question[5]
+Правоугли троугао има катете
+$\measure{\variant{7}{15}{20}}{cm}$ и
+$\measure{\variant{24}{8}{21}}{cm}$.  
+Израчунај полупречник уписаног круга.
+\begin{solution}[\stretch 3]
+\begin{align*}
+c &= \sqrt{a^2+b^2}=\sqrt{\variant{49+576}{225+64}{400+441}}\\
+&=\sqrt{\variant{625}{289}{841}}=\variant{25}{17}{29}\\
+r &= \tfrac{a+b-c}{2}=\tfrac{\variant{7+24-25}{15+8-17}{20+21-29}}{2}
+=\tfrac{6}{2}=\measure{3}{cm}
+\end{align*}
 \end{solution}
 
-\question[3]
-Цена производа је снижена за $20\%$ и тада износи $1600$ динара. Колика је била почетна цена?
-\begin{solution}[\stretch{2}]
-После снижења остаје $80\%$ од цене: $0.8\cdot P=1600\Rightarrow P=\frac{1600}{0.8}=2000$ дин.
-\end{solution}
-
-% ======= Геометрија =======
-\question[3]
-У троуглу $\triangle ABC$ угао при врху $A$ износи $40^\circ$, угао при врху $B$ $85^\circ$. Израчунај угао при врху $C$.
-\begin{solution}[\stretch{1}]
-$\alpha+\beta+\gamma=180^\circ \ \Rightarrow \ \gamma=180^\circ-40^\circ-85^\circ=55^\circ$.
-\end{solution}
-
-\question[4]
-Правоугаоник има странице $6$ cm и $8$ cm. Израчунај дужину дијагонале.
-\begin{solution}[\stretch{2}]
-По Питагори: $d=\sqrt{6^2+8^2}=\sqrt{36+64}=10$ cm.
-\end{solution}
-
-\question[4]
-Квадрат има страницу $a=5$ cm. Израчунај површину уписане кружнице.
-\begin{solution}[\stretch{2}]
-Уписана кружница има пречник једнак страници квадрата, дакле $d=5$, $r=2.5$. Површина: $P=\pi r^2=\pi\cdot 2.5^2=6.25\pi\ \text{cm}^2$.
-\end{solution}
-
-\question[3]
-Конструиши троугао $ABC$ ако је дато: $AB=5$ cm, $AC=6$ cm и $\angle A=60^\circ$.
-\begin{solution}[\stretch{5}]
-\begin{enumerate}
-\item Нацртати дуж $AB=5$ cm.  
-\item У тачки $A$ одмерити угао $60^\circ$ и на тој полуправој одмерити $AC=6$ cm.  
-\item Спојити $B$ и $C$.  
-\end{enumerate}
+\question[5]
+(Домаћи) Израчунај површину троугла са страницама
+$\measure{\variant{10}{7}{9}}{cm}$,
+$\measure{\variant{13}{24}{12}}{cm}$,
+$\measure{\variant{15}{25}{18}}{cm}$.
+\begin{solution}[\stretch 4]
+\begin{align*}
+s &= \tfrac{a+b+c}{2}=\tfrac{\variant{10+13+15}{7+24+25}{9+12+18}}{2}
+=\variant{19}{28}{19,5}\\
+P &= \sqrt{s(s-a)(s-b)(s-c)}
+=\sqrt{\variant{19\cdot9\cdot6\cdot4}{28\cdot21\cdot4\cdot3}{19,5\cdot10,5\cdot7,5\cdot1,5}}\\
+P &= \measure{\variant{84}{84}{\approx56,1}}{cm^2}
+\end{align*}
 \end{solution}
 
 \end{questions}
