@@ -1,0 +1,106 @@
+\documentclass[11pt,a5paper,addpoints]{exam}
+
+\usepackage[OT2]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[serbian]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a5paper, margin=1.5cm}
+
+\renewcommand{\solutiontitle}{\noindent\textrm{Решење:}\enspace}
+\pointsinmargin
+\pointname{}
+\hqword{Задатак:}
+\hpgword{Страница:}
+\hpword{Поени:}
+\hsword{Остварено:}
+\htword{Збир}
+\cellwidth{1em}
+\cfoot[]{Страница \thepage\ од \numpages}
+\addto{\captionsserbian}{\renewcommand{\abstractname}{Упут{}ство}}
+
+\pagestyle{headandfoot}
+\firstpageheadrule
+\firstpageheader{Математика 8}{}{Радни лист – обнављање}
+\runningheader{Обнављање градива 7. разреда}{}{стр. \thepage\ од \numpages}
+\runningheadrule
+\runningfooter{}{}{}
+
+\begin{document}
+
+\begin{center}
+\Large \textbf{Радни лист – обнављање градива (7. разред, I квартал)} \\
+\smallskip
+\small Време рада: 45 минута
+\end{center}
+
+\begin{questions}
+
+% ======= Полиноми =======
+\question[3]
+Развиј и среди израз:
+\[
+(2x-3)(x+5).
+\]
+\begin{solution}[\stretch{2}]
+$2x\cdot x+2x\cdot 5-3\cdot x-3\cdot 5=2x^2+10x-3x-15=2x^2+7x-15$.
+\end{solution}
+
+\question[3]
+Примени формулу разлике квадрата:
+\[
+(5a-2)(5a+2).
+\]
+\begin{solution}[\stretch{1}]
+$(5a)^2-2^2=25a^2-4$.
+\end{solution}
+
+% ======= Једначине и проценат =======
+\question[4]
+Реши једначину:
+\[
+3(x-4)=2x+1.
+\]
+\begin{solution}[\stretch{2}]
+$3x-12=2x+1 \ \Rightarrow\ 3x-2x=1+12 \ \Rightarrow\ x=13$.
+\end{solution}
+
+\question[3]
+Цена производа је снижена за $20\%$ и тада износи $1600$ динара. Колика је била почетна цена?
+\begin{solution}[\stretch{2}]
+После снижења остаје $80\%$ од цене: $0.8\cdot P=1600\Rightarrow P=\frac{1600}{0.8}=2000$ дин.
+\end{solution}
+
+% ======= Геометрија =======
+\question[3]
+У троуглу $\triangle ABC$ угао при врху $A$ износи $40^\circ$, угао при врху $B$ $85^\circ$. Израчунај угао при врху $C$.
+\begin{solution}[\stretch{1}]
+$\alpha+\beta+\gamma=180^\circ \ \Rightarrow \ \gamma=180^\circ-40^\circ-85^\circ=55^\circ$.
+\end{solution}
+
+\question[4]
+Правоугаоник има странице $6$ cm и $8$ cm. Израчунај дужину дијагонале.
+\begin{solution}[\stretch{2}]
+По Питагори: $d=\sqrt{6^2+8^2}=\sqrt{36+64}=10$ cm.
+\end{solution}
+
+\question[4]
+Квадрат има страницу $a=5$ cm. Израчунај површину уписане кружнице.
+\begin{solution}[\stretch{2}]
+Уписана кружница има пречник једнак страници квадрата, дакле $d=5$, $r=2.5$. Површина: $P=\pi r^2=\pi\cdot 2.5^2=6.25\pi\ \text{cm}^2$.
+\end{solution}
+
+\question[3]
+Конструиши троугао $ABC$ ако је дато: $AB=5$ cm, $AC=6$ cm и $\angle A=60^\circ$.
+\begin{solution}[\stretch{5}]
+\begin{enumerate}
+\item Нацртати дуж $AB=5$ cm.  
+\item У тачки $A$ одмерити угао $60^\circ$ и на тој полуправој одмерити $AC=6$ cm.  
+\item Спојити $B$ и $C$.  
+\end{enumerate}
+\end{solution}
+
+\end{questions}
+
+\end{document}
