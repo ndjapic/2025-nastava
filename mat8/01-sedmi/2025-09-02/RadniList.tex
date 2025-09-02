@@ -1,0 +1,149 @@
+\documentclass[11pt,a5paper,twoside,addpoints,noanswers]{exam} % задаци
+%\documentclass[10pt,a5paper,twoside,addpoints,answers]{exam} % решења
+
+\usepackage[OT2]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[serbian]{babel}
+\usepackage{multicol}
+\usepackage{amssymb,amsmath}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a5paper, margin=1.5cm}
+
+% Макро за јединице мере
+\newcommand{\measure}[2]{#1\,\mathrm{#2}}
+
+% Макро за варијанте
+\newcommand{\variant}[4]{#1}
+
+% exam подешавања
+\renewcommand{\solutiontitle}{\noindent\textrm{Решење:}\enspace}
+\pointsinmargin
+\pointname{}
+\hqword{Задатак:}
+\hpgword{Страница:}
+\hpword{Поени:}
+\hsword{Остварено:}
+\htword{Збир}
+\vqword{Задатак:}
+\vpgword{Страница:}
+\vpword{Поени:}
+\vsword{Остварено:}
+\vtword{Збир}
+\cellwidth{1em}
+\cfoot[]{Страница \thepage\ од \numpages}
+\addto{\captionsserbian}{\renewcommand{\abstractname}{Упутство}}
+
+\title{Припремна настава}
+\author{$\mathrm{VII}_\Box$ Примена Питагорине теореме. Степеновање
+ \thanks{
+  33 одлично,
+  25 врло добро,
+  17 добро,
+   9 довољно.
+ }
+}
+\date{Станишић, 13.\ август 2025.}
+
+\pagestyle{headandfoot}
+\runningheader{Примена Питагорине теореме. Степеновање}
+	{}{варијанта \variant 1234}
+\runningfooter{среда}
+	{}{Страна \thepage\ од \numpages}
+
+\begin{document}
+\maketitle
+\thispagestyle{headandfoot}
+
+\ifprintanswers\else
+\begin{flushleft}
+\gradetable[v]\newpage
+\end{flushleft}
+\fi
+
+\begin{questions}
+
+\question %01.
+Израчунај:
+\begin{multicols}{3}
+\begin{parts}
+\part[1] $3^{\variant{4}{5}{6}{7}}$;
+\part[1] $2^{\variant{10}{9}{8}{7}}$;
+\part[1] $5^{\variant{3}{4}{5}{2}}$.
+\end{parts}
+\end{multicols}
+
+\question %02.
+Запиши у облику степена:
+\begin{parts}
+\part[1] $\variant
+{7\cdot 7\cdot 7\cdot 7}
+{0,\!4\cdot 0,\!4\cdot 0,\!4}
+{(-3)\cdot (-3)\cdot (-3)\cdot (-3)\cdot (-3)}
+{1,\!2\cdot 1,\!2\cdot 1,\!2\cdot 1,\!2}$;
+\part[1] $\variant
+{\sqrt{5}\cdot \sqrt{5}\cdot \sqrt{5}\cdot \sqrt{5}}
+{\left(-\tfrac{2}{3}\right)\cdot\left(-\tfrac{2}{3}\right)\cdot\left(-\tfrac{2}{3}\right)}
+{\dfrac{\sqrt{7}}{2}\cdot\dfrac{\sqrt{7}}{2}\cdot\dfrac{\sqrt{7}}{2}\cdot\dfrac{\sqrt{7}}{2}\cdot\dfrac{\sqrt{7}}{2}}
+{(-4)\cdot (-4)\cdot (-4)}$.
+\end{parts}
+
+\question[3] %03.
+Поређај бројеве од најмањег до највећег:
+\[
+\variant
+ {3^4,\; 2^6,\; 7^2,\; 5^3}
+ {2^8,\; 10^2,\; 3^5,\; 9^2}
+ {11^2,\; 2^7,\; 4^4,\; 6^3}
+ {2^9,\; 3^6,\; 5^4,\; 7^3}.
+\]
+
+\question %04.
+Поједностави израз:
+\begin{multicols}{2}
+\begin{parts}
+\part[1] $\dfrac{x^{12}}{x^7}$;
+\part[2] $\dfrac{a^5\cdot a^8}{a^{11}}$.
+\end{parts}
+\end{multicols}
+
+\question %05.
+Израчунај вредност:
+\begin{multicols}{2}
+\begin{parts}
+\part[1] $\dfrac{3^9}{3^7}$;
+\part[2] $\dfrac{4^6}{2^8}$.
+\end{parts}
+\end{multicols}
+
+\question[3] %06.
+Одреди $x$:
+\[
+\variant{2^x=8^4}{(3^{2x})^2=3^{20}}{5^{x+1}=125}{7^{3x}=7^{12}}.
+\]
+
+\question[4] %07.
+Напиши број \variant{1024}{3125}{81}{64}
+као степен са основом \variant{2}{5}{3}{2},
+а затим као степен са основом \variant{4}{25}{9}{8}.
+
+% ---------------- Питагорина ----------------
+
+\question[4] %08.
+Једнакокраки троугао има основицу $\measure{\variant{12}{14}{10}{8}}{cm}$, а висину $\measure{\variant{9}{10}{8}{6}}{cm}$. Израчунај дужину крака, обим и површину троугла.
+
+\question[4] %09.
+Правоугаоник има странице $\measure{\variant{9}{12}{7}{15}}{cm}$ и $\measure{\variant{12}{5}{24}{8}}{cm}$. Израчунај дијагоналу, обим и површину.
+
+\question %10.
+\begin{parts}
+\part[2] Квадрат има дијагоналу $\measure{\variant{8}{10}{12}{14}}{cm}$. Израчунај страницу и површину квадрата.
+\part[3] Ромб има дијагонале $d_1=\measure{\variant{10}{15}{20}{12}}{cm}$ и $d_2=\measure{\variant{24}{7}{16}{18}}{cm}$. Израчунај страницу, површину и висину ромба.
+\end{parts}
+
+\question[5] %11.
+Правоугли трапез има основице $\measure{\variant{14}{16}{12}{10}}{cm}$ и $\measure{\variant{8}{10}{6}{5}}{cm}$, а крак нормалан на основице $\measure{\variant{7}{6}{5}{8}}{cm}$. Израчунај други крак, обим и површину трапеза.
+
+\end{questions}
+
+\end{document}
