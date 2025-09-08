@@ -1,0 +1,130 @@
+\documentclass[11pt,a5paper,twoside,addpoints,noanswers]{exam} % задаци
+%\documentclass[11pt,a5paper,twoside,addpoints,answers]{exam}   % решења
+
+\usepackage[OT2]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[serbian]{babel}
+\usepackage{multicol}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a5paper, margin=1.5cm}
+
+\renewcommand{\solutiontitle}{\noindent\textbf{Решење:}\enspace}
+\pointsinmargin
+\pointname{}
+\cfoot[]{Страна \thepage\ од \numpages}
+
+\title{Пробни иницијални тест за VIII разред (ИОП)}
+\author{Олакшана варијанта}
+\date{септембар 2025.}
+
+\pagestyle{headandfoot}
+\runningheader{Пробни иницијални тест (ИОП)}{}{једна варијанта}
+\runningfooter{}{Страна \thepage\ од \numpages}{}
+
+\begin{document}
+\maketitle
+\thispagestyle{headandfoot}
+
+\ifprintanswers\else
+\begin{flushleft}
+\gradetable[v]\newpage
+\end{flushleft}
+\fi
+
+\begin{questions}
+
+% ---------- СТРАНА 1 ----------
+\question[6]
+Израчунај:
+\begin{multicols}{3}
+\begin{parts}
+\part $25+37$
+\part $120-85$
+\part $7 \cdot 8$
+\end{parts}
+\end{multicols}
+
+\begin{solution}[\stretch 1]
+\begin{parts}
+\part $62$
+\part $35$
+\part $56$
+\end{parts}
+\end{solution}
+
+\question[6]
+Израчунај:
+\[
+48 : 6 + 5 \cdot 4.
+\]
+
+\begin{solution}[\stretch 1]
+$48:6=8$, $5\cdot4=20$, $8+20=28$.
+\end{solution}
+
+\ifprintanswers\else\newpage\fi
+
+% ---------- СТРАНА 2 ----------
+\question[6]
+Реши једначину:
+\[
+x+7=15.
+\]
+
+\begin{solution}[\stretch 1]
+$x=15-7=8$.
+\end{solution}
+
+\question[8]
+Реши једначину:
+\[
+3x=21.
+\]
+
+\begin{solution}[\stretch 1]
+$x=7$.
+\end{solution}
+
+\ifprintanswers\else\newpage\fi
+
+% ---------- СТРАНА 3 ----------
+\question[8]
+Правоугаоник има странице $a=5\,\text{cm}$ и $b=9\,\text{cm}$.  
+Израчунај обим и површину.
+
+\begin{solution}[\stretch 2]
+$O=2(a+b)=2\cdot 14=28\,\text{cm}$.  
+$P=ab=45\,\text{cm}^2$.
+\end{solution}
+
+\question[10]
+Квадрат има страницу $a=6\,\text{cm}$.  
+Израчунај обим и површину.
+
+\begin{solution}[\stretch 2]
+$O=4a=24\,\text{cm}$.  
+$P=a^2=36\,\text{cm}^2$.
+\end{solution}
+
+\ifprintanswers\else\newpage\fi
+
+% ---------- СТРАНА 4 ----------
+\question[10]
+Круг има полупречник $r=7\,\text{cm}$.  
+Израчунај приближно обим ($\pi\approx3{,}14$).
+
+\begin{solution}[\stretch 2]
+$O=2\pi r \approx 43{,}96\,\text{cm}$.
+\end{solution}
+
+\question[10]
+(Текстуални задатак) Аутобус је прешао $120\,\text{km}$ за $2\,h$.  
+Колика је просечна брзина?
+
+\begin{solution}[\stretch 2]
+$v=\tfrac{120}{2}=60\,\text{km/h}$.
+\end{solution}
+
+\end{questions}
+\end{document}
