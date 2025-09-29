@@ -1,0 +1,178 @@
+\documentclass[11pt,a5paper,addpoints,noanswers]{exam}
+%\documentclass[11pt,a5paper,addpoints,answers]{exam}
+
+\usepackage{multicol}
+\usepackage{amssymb,amsmath}
+\usepackage{tikz} % Потребно за конструктивне задатке у решењима
+\usepackage{graphicx,geometry}
+\geometry{a5paper, margin=1.5cm}
+
+\usepackage[OT2]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[serbian]{babel}
+
+\addto{\captionsserbian}{\renewcommand{\abstractname}{Упут{}ство}}
+
+\renewcommand{\solutiontitle}{\noindent\textrm{Решење:}\enspace}
+\pointsinmargin
+\pointname{}
+\hqword{Задатак:}
+\hpgword{Страница:}
+\hpword{Поени:}
+\hsword{Остварено:}
+\htword{Збир}
+\cellwidth{1em}
+\gradetablestretch{1.1}
+\cfoot[]{Страница \thepage\ од \numpages}
+\def\measure#1#2{#1 \, \mathrm{#2}}
+
+\title{$\mathrm{VIII}_\Box$, група А (Основни ниво)}
+\author{Сличност и раније градиво}
+\date{29. септембар 2025.}
+
+\def\abs|#1|{\left| #1 \right|}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{headandfoot}
+
+\begin{center} \small
+ \hrulefill \par (име и презиме ученика)
+\end{center}
+
+\begin{abstract}
+Задаци су основног нивоа и носе различит број бодова (укупно 24 бода). Пажљиво прочитајте сваки задатак. Време за израду је 40 минута. Дозвољена је употреба лењира и шестара.
+За добијање бодова, у сваком задатку мора бити наведен поступак из којег се јасно види како се дошло до решења.
+
+\medskip
+\noindent *Бодовање за оцену:* Недовољан (1) $0 - 6$ бодова, Довољан (2) $7 - 11$ бодова, Добар (3) $12 - 15$ бодова, Врло добар (4) $16 - 19$ бодова, Одличан (5) $20 - 24$ бода.
+\end{abstract}
+
+%\vspace*{\stretch 1}
+\noindent \gradetable[h]
+
+\begin{questions}
+
+\question[3]
+ Два угла једног троугла су
+ $75^\circ$ и
+ $45^\circ$, а два угла другог
+ $60^\circ$ и
+ $45^\circ$.
+ Испитај да ли су та два троугла слична.
+ \begin{solution}[\stretch 4] % Основни задатак о сличности - УУ став
+  Троугао $\Delta ABC$:
+  $\gamma_1 = 180^\circ - (75^\circ + 45^\circ) = 180^\circ - 120^\circ = 60^\circ$.
+  Углови првог троугла су: $\{75^\circ, 45^\circ, 60^\circ\}$.
+
+  Троугао $\Delta A'B'C'$:
+  Трећи угао је: $\gamma_2 = 180^\circ - (60^\circ + 45^\circ) = 180^\circ - 105^\circ = 75^\circ$.
+  Углови другог троугла су: $\{60^\circ, 45^\circ, 75^\circ\}$.
+
+  Како су углови првог троугла једнаки угловима другог троугла (поређани: $75^\circ=75^\circ$, $60^\circ=60^\circ$, $45^\circ=45^\circ$), троуглови су слични по ставу У-У.
+ \end{solution}
+ \answerline
+
+\ifprintanswers\else\newpage\fi % Први обавезни прелазак на нову страницу (страница 2)
+
+\question[3]
+ Дужине страница једног троугла су
+ $\measure{3}{cm}$,
+ $\measure{4}{cm}$ и
+ $\measure{5}{cm}$, а другог
+ $\measure{9}{cm}$,
+ $\measure{12}{cm}$ и
+ $\measure{15}{cm}$.
+ Испитај да ли су та два троугла слична.
+ \begin{solution}[\stretch 4] % Основни задатак о сличности - ССС став
+  Странице првог троугла: $a_1=3$, $b_1=4$, $c_1=5$.
+  Странице другог троугла: $a_2=9$, $b_2=12$, $c_2=15$.
+
+  Проверавамо однос одговарајућих страница:
+  $$ \frac{3}{9} = \frac{1}{3} $$
+  $$ \frac{4}{12} = \frac{1}{3} $$
+  $$ \frac{5}{15} = \frac{1}{3} $$
+  Како је однос свих страница једнак $k = 1/3$, троуглови су слични по ставу С-С-С.
+ \end{solution}
+ \answerline
+
+\question[3]
+ Израчунај обим једнакокраког трапеза чије су основице $a=\measure{10}{cm}$ и $b=\measure{4}{cm}$, а крак $c=\measure{5}{cm}$.
+ \begin{solution}[\stretch 4] % Задатак из претходног градива (Трапез)
+  Обим трапеза је збир дужина свих страница.
+  $O = a + b + 2c$
+  $O = 10\,\mathrm{cm} + 4\,\mathrm{cm} + 2 \cdot 5\,\mathrm{cm}$
+  $O = 14\,\mathrm{cm} + 10\,\mathrm{cm}$
+  $O = \measure{24}{cm}$.
+  Обим трапеза је $\measure{24}{cm}$.
+ \end{solution}
+ \answerline
+
+\ifprintanswers\else\newpage\fi % Други обавезни прелазак на нову страницу (страница 3)
+
+\question[4]
+ Дата је дуж $AB$ подељена тачком $C$ на два дела. Ако је $AC=\measure{5}{cm}$, $CB=\measure{10}{cm}$. Израчунај дужину дужи $CD=x$ тако да су дужи $AC$ и $CD$ пропорционалне дужима $CB$ и $x$ (тј. $AC:CB=CD:x$), ако је $CD=\measure{2}{cm}$.
+ \begin{solution}[\stretch 7] % Основни задатак пропорције (Талесова теорема)
+  Постављамо пропорцију:
+  $$ AC:CB = CD:x $$
+  Убацујемо дате вредности:
+  $$ 5:10 = 2:x $$
+  Производ спољашњих чланова једнак је производу унутрашњих:
+  $$ 5 \cdot x = 10 \cdot 2 $$
+  $$ 5x = 20 $$
+  $$ x = \frac{20}{5} $$
+  $$ x = \measure{4}{cm} $$
+  Дужина дужи $x$ је $\measure{4}{cm}$.
+ \end{solution}
+ \answerline
+
+\question[3]
+ Израчунај дужину хипотенузе правоуглог троугла чије су катете $a=\measure{6}{cm}$ и $b=\measure{8}{cm}$.
+ \begin{solution}[\stretch 4] % Задатак из претходног градива (Питагорина теорема)
+  Користимо Питагорину теорему: $c^2 = a^2 + b^2$.
+  $c^2 = 6^2 + 8^2$
+  $c^2 = 36 + 64$
+  $c^2 = 100$
+  $c = \sqrt{100}$
+  $c = \measure{10}{cm}$.
+  Дужина хипотенузе је $\measure{10}{cm}$.
+ \end{solution}
+ \answerline
+
+\ifprintanswers\else\newpage\fi % Трећи обавезни прелазак на нову страницу (страница 4)
+
+\question[4]
+ Конструиши симетралу датог угла $\alpha = 70^\circ$.
+ \begin{solution}[\stretch 7] % Задатак из претходног градива (Основна конструкција)
+  Поступак конструкције симетрале угла $\alpha$:
+  \begin{enumerate}
+      \item Нацртати угао $\alpha = 70^\circ$.
+      \item Из темена угла $A$ нацртати лук произвољног полупречника $r$ који сече оба крака угла у тачкама $B$ и $C$.
+      \item Из тачке $B$ нацртати лук полупречника $r$ (или другог, али једног) унутар угла.
+      \item Из тачке $C$ нацртати лук истог полупречника $r$ који сече претходно нацртани лук у тачки $D$.
+      \item Полуправа која полази из темена $A$ и пролази кроз тачку $D$ је тражена симетрала $s$.
+  \end{enumerate}
+  Симетрала дели угао на два једнака дела од $35^\circ$.
+ \end{solution}
+ \answerline
+
+\question[4]
+ Два слична троугла имају коефицијент сличности $k = \frac{2}{3}$. Ако је обим мањег троугла $O_1 = \measure{18}{cm}$, израчунај обим већег троугла $O_2$.
+ \begin{solution}[\stretch 9] % Основни задатак о обиму и сличности
+  Коефицијент сличности $k$ је једнак односу обима:
+  $$ \frac{O_1}{O_2} = k $$
+  Замењујемо дате вредности:
+  $$ \frac{18}{O_2} = \frac{2}{3} $$
+  Решавамо пропорцију:
+  $$ 2 \cdot O_2 = 18 \cdot 3 $$
+  $$ 2 \cdot O_2 = 54 $$
+  $$ O_2 = \frac{54}{2} $$
+  $$ O_2 = \measure{27}{cm} $$
+  Обим већег троугла је $\measure{27}{cm}$.
+ \end{solution}
+ \answerline
+
+\end{questions}
+
+\end{document}
