@@ -5,6 +5,7 @@
 | [Каталог][3]
 | [Диск][4]
 | [Геогебра][5]
+| [Контролни][6]
 |
 
 [1]: https://photos.app.goo.gl/UaXuHXwi2FWVc5nT7 "Фотографије табле"
@@ -12,3 +13,4 @@
 [3]: https://ndjapic.github.io/zayopa/m8/01-slicnost/ "Каталог линкова"
 [4]: https://drive.google.com/drive/folders/1lLXQHoGM_W4dasGEc0bpm-HY1REssE9L?usp=drive_link "Гугл диск"
 [5]: https://www.geogebra.org/m/aMy8ySp5 "ГеоГебра илустрације"
+[6]: https://drive.google.com/file/d/13ioTXkFCT8qrKhYTBxW0jwKZ5M1aC7gL/view?usp=drive_link "Контролни задатак"
