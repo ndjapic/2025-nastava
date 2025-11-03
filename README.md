@@ -9,12 +9,19 @@
 
 ## Математика
 
-- седми разред
-- осми разред
+- [седми разред][3]
+- [осми разред][4]
 
 ## Информатика и рачунарство
 
-- пети разред
-- шести разред
-- седми разред
-- осми разред
+- [пети разред][5]
+- [шести разред][6]
+- [седми разред][7]
+- [осми разред][8]
+
+[3]: https://github.com/ndjapic/2025-nastava/tree/main/mat7
+[4]: https://github.com/ndjapic/2025-nastava/tree/main/mat8
+[5]: https://github.com/ndjapic/2025-nastava/tree/main/inf5
+[6]: https://github.com/ndjapic/2025-nastava/tree/main/inf6
+[7]: https://github.com/ndjapic/2025-nastava/tree/main/inf7
+[8]: https://github.com/ndjapic/2025-nastava/tree/main/inf8
