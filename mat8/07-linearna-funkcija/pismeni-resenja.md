@@ -11,39 +11,39 @@
 
 **2. задатак:**
 
-* $a = 12 \, \mathrm{cm}$, $H = 8 \, \mathrm{cm}$.
-* Апотема: $h^2 = H^2 + \left(\frac{a}{2}\right)^2 = 8^2 + 6^2 = 64 + 36 = 100 \implies h = 10 \, \mathrm{cm}$.
-* Површина основе: $B = a^2 = 144 \, \mathrm{cm}^2$.
-* Омотач: $M = 2ah = 2 \cdot 12 \cdot 10 = 240 \, \mathrm{cm}^2$.
-* **Површина:** $P = B + M = 384 \, \mathrm{cm}^2$.
-* **Запремина:** $V = \frac{1}{3}BH = \frac{1}{3} \cdot 144 \cdot 8 = 48 \cdot 8 = 384 \, \mathrm{cm}^3$.
+* $a = 12 \mathrm{cm}$, $H = 8 \mathrm{cm}$.
+* Апотема: $h^2 = H^2 + \left(\frac{a}{2}\right)^2 = 8^2 + 6^2 = 64 + 36 = 100 \implies h = 10 \mathrm{cm}$.
+* Површина основе: $B = a^2 = 144 \mathrm{cm}^2$.
+* Омотач: $M = 2ah = 2 \cdot 12 \cdot 10 = 240 \mathrm{cm}^2$.
+* **Површина:** $P = B + M = 384 \mathrm{cm}^2$.
+* **Запремина:** $V = \frac{1}{3}BH = \frac{1}{3} \cdot 144 \cdot 8 = 48 \cdot 8 = 384 \mathrm{cm}^3$.
 
 **3. задатак:**
 
-* Мрежа се састоји од **три подударна правоугаоника** димензија $3 \, \mathrm{cm} \times 5 \, \mathrm{cm}$ (омотач) и **два једнакостранична троугла** странице $a = 3 \, \mathrm{cm}$ (основе).
+* Мрежа се састоји од **три подударна правоугаоника** димензија $3 \mathrm{cm} \times 5 \mathrm{cm}$ (омотач) и **два једнакостранична троугла** странице $a = 3 \mathrm{cm}$ (основе).
 
 **4. задатак:**
 
 * **Експлицитни облик:** $2x + y - 4 = 0 \implies y = -2x + 4$.
-* **График (тачке за цртање):** За $x = 0 \implies y = 4$ (тачка $(0, 4)$). За $y = 0 \implies x = 2$ (тачка $(2, 0)$). Права пролази кроз ове две тачке.
+* **График (тачке за цртање):** За $x = 0 \implies y = 4$ добијамо тачку $(0, 4)$. За $y = 0 \implies x = 2$ добијамо тачку $(2, 0)$. Права пролази кроз ове две тачке.
 
 **5. задатак:**
 
-* Катете: $a_1 = 6 \, \mathrm{cm}$, $a_2 = 8 \, \mathrm{cm}$, висина $H = 10 \, \mathrm{cm}$.
-* Хипотенуза основе: $c = \sqrt{6^2 + 8^2} = 10 \, \mathrm{cm}$.
-* Основа: $B = \frac{6 \cdot 8}{2} = 24 \, \mathrm{cm}^2$.
-* Омотач: $M = (a_1 + a_2 + c) \cdot H = (6 + 8 + 10) \cdot 10 = 24 \cdot 10 = 240 \, \mathrm{cm}^2$.
-* **Површина:** $P = 2B + M = 48 + 240 = 288 \, \mathrm{cm}^2$.
-* **Запремина:** $V = B \cdot H = 24 \cdot 10 = 240 \, \mathrm{cm}^3$.
+* Катете: $a_1 = 6 \mathrm{cm}$, $a_2 = 8 \mathrm{cm}$, висина $H = 10 \mathrm{cm}$.
+* Хипотенуза основе: $c = \sqrt{6^2 + 8^2} = 10 \mathrm{cm}$.
+* Основа: $B = \frac{6 \cdot 8}{2} = 24 \mathrm{cm}^2$.
+* Омотач: $M = (a_1 + a_2 + c) \cdot H = (6 + 8 + 10) \cdot 10 = 24 \cdot 10 = 240 \mathrm{cm}^2$.
+* **Површина:** $P = 2B + M = 48 + 240 = 288 \mathrm{cm}^2$.
+* **Запремина:** $V = B \cdot H = 24 \cdot 10 = 240 \mathrm{cm}^3$.
 
 **6. задатак:**
 
-* $P = 384 \, \mathrm{cm}^2$, $a = 12 \, \mathrm{cm}$.
-* $B = a^2 = 144 \, \mathrm{cm}^2$.
-* $M = P - B = 384 - 144 = 240 \, \mathrm{cm}^2$.
-* Из $M = 2ah \implies 240 = 24h \implies h = 10 \, \mathrm{cm}$.
-* Висина: $H = \sqrt{h^2 - \left(\frac{a}{2}\right)^2} = \sqrt{10^2 - 6^2} = \sqrt{64} = 8 \, \mathrm{cm}$.
-* **Запремина:** $V = \frac{1}{3}BH = \frac{1}{3} \cdot 144 \cdot 8 = 384 \, \mathrm{cm}^3$.
+* $P = 384 \mathrm{cm}^2$, $a = 12 \mathrm{cm}$.
+* $B = a^2 = 144 \mathrm{cm}^2$.
+* $M = P - B = 384 - 144 = 240 \mathrm{cm}^2$.
+* Из $M = 2ah \implies 240 = 24h \implies h = 10 \mathrm{cm}$.
+* Висина: $H = \sqrt{h^2 - \left(\frac{a}{2}\right)^2} = \sqrt{10^2 - 6^2} = \sqrt{64} = 8 \mathrm{cm}$.
+* **Запремина:** $V = \frac{1}{3}BH = \frac{1}{3} \cdot 144 \cdot 8 = 384 \mathrm{cm}^3$.
 
 ---
 
@@ -56,39 +56,39 @@
 
 **2. задатак:**
 
-* $a = 16 \, \mathrm{cm}$, $h = 17 \, \mathrm{cm}$.
-* Висина: $H^2 = h^2 - \left(\frac{a}{2}\right)^2 = 17^2 - 8^2 = 289 - 64 = 225 \implies H = 15 \, \mathrm{cm}$.
-* Основа: $B = a^2 = 256 \, \mathrm{cm}^2$.
-* Омотач: $M = 2ah = 2 \cdot 16 \cdot 17 = 544 \, \mathrm{cm}^2$.
-* **Површина:** $P = B + M = 256 + 544 = 800 \, \mathrm{cm}^2$.
-* **Запремина:** $V = \frac{1}{3}BH = \frac{1}{3} \cdot 256 \cdot 15 = 256 \cdot 5 = 1280 \, \mathrm{cm}^3$.
+* $a = 16 \mathrm{cm}$, $h = 17 \mathrm{cm}$.
+* Висина: $H^2 = h^2 - \left(\frac{a}{2}\right)^2 = 17^2 - 8^2 = 289 - 64 = 225 \implies H = 15 \mathrm{cm}$.
+* Основа: $B = a^2 = 256 \mathrm{cm}^2$.
+* Омотач: $M = 2ah = 2 \cdot 16 \cdot 17 = 544 \mathrm{cm}^2$.
+* **Површина:** $P = B + M = 256 + 544 = 800 \mathrm{cm}^2$.
+* **Запремина:** $V = \frac{1}{3}BH = \frac{1}{3} \cdot 256 \cdot 15 = 256 \cdot 5 = 1280 \mathrm{cm}^3$.
 
 **3. задатак:**
 
-* Мрежа се састоји од **четири подударна правоугаоника** димензија $3 \, \mathrm{cm} \times 4 \, \mathrm{cm}$ (омотач) и **два квадрата** странице $a = 3 \, \mathrm{cm}$ (основе).
+* Мрежа се састоји од **четири подударна правоугаоника** димензија $3 \mathrm{cm} \times 4 \mathrm{cm}$ (омотач) и **два квадрата** странице $a = 3 \mathrm{cm}$ (основе).
 
 **4. задатак:**
 
 * **Експлицитни облик:** $-x + 2y - 6 = 0 \implies 2y = x + 6 \implies y = \frac{1}{2}x + 3$.
-* **График (тачке за цртање):** За $x = 0 \implies y = 3$ (тачка $(0, 3)$). За $y = 0 \implies x = -6$ (тачка $(-6, 0)$).
+* **График (тачке за цртање):** За $x = 0 \implies y = 3$ добијамо тачку $(0, 3)$. За $y = 0 \implies x = -6$ добијамо тачку $(-6, 0)$.
 
 **5. задатак:**
 
-* Катете: $a_1 = 9 \, \mathrm{cm}$, $a_2 = 12 \, \mathrm{cm}$, висина $H = 8 \, \mathrm{cm}$.
-* Хипотенуза основе: $c = \sqrt{9^2 + 12^2} = 15 \, \mathrm{cm}$.
-* Основа: $B = \frac{9 \cdot 12}{2} = 54 \, \mathrm{cm}^2$.
-* Омотач: $M = (9 + 12 + 15) \cdot 8 = 36 \cdot 8 = 288 \, \mathrm{cm}^2$.
-* **Површина:** $P = 2B + M = 108 + 288 = 396 \, \mathrm{cm}^2$.
-* **Запремина:** $V = B \cdot H = 54 \cdot 8 = 432 \, \mathrm{cm}^3$.
+* Катете: $a_1 = 9 \mathrm{cm}$, $a_2 = 12 \mathrm{cm}$, висина $H = 8 \mathrm{cm}$.
+* Хипотенуза основе: $c = \sqrt{9^2 + 12^2} = 15 \mathrm{cm}$.
+* Основа: $B = \frac{9 \cdot 12}{2} = 54 \mathrm{cm}^2$.
+* Омотач: $M = (9 + 12 + 15) \cdot 8 = 36 \cdot 8 = 288 \mathrm{cm}^2$.
+* **Површина:** $P = 2B + M = 108 + 288 = 396 \mathrm{cm}^2$.
+* **Запремина:** $V = B \cdot H = 54 \cdot 8 = 432 \mathrm{cm}^3$.
 
 **6. задатак:**
 
-* $V = 400 \, \mathrm{cm}^3$, $H = 12 \, \mathrm{cm}$.
-* Из $V = \frac{1}{3}BH \implies 400 = \frac{1}{3} \cdot B \cdot 12 \implies 400 = 4B \implies B = 100 \, \mathrm{cm}^2$.
-* Ивица: $a = \sqrt{100} = 10 \, \mathrm{cm}$.
-* Апотема: $h = \sqrt{H^2 + \left(\frac{a}{2}\right)^2} = \sqrt{12^2 + 5^2} = 13 \, \mathrm{cm}$.
-* Омотач: $M = 2ah = 2 \cdot 10 \cdot 13 = 260 \, \mathrm{cm}^2$.
-* **Површина:** $P = B + M = 100 + 260 = 360 \, \mathrm{cm}^2$.
+* $V = 400 \mathrm{cm}^3$, $H = 12 \mathrm{cm}$.
+* Из $V = \frac{1}{3}BH \implies 400 = \frac{1}{3} \cdot B \cdot 12 \implies 400 = 4B \implies B = 100 \mathrm{cm}^2$.
+* Ивица: $a = \sqrt{100} = 10 \mathrm{cm}$.
+* Апотема: $h = \sqrt{H^2 + \left(\frac{a}{2}\right)^2} = \sqrt{12^2 + 5^2} = 13 \mathrm{cm}$.
+* Омотач: $M = 2ah = 2 \cdot 10 \cdot 13 = 260 \mathrm{cm}^2$.
+* **Површина:** $P = B + M = 100 + 260 = 360 \mathrm{cm}^2$.
 
 ---
 
@@ -101,38 +101,38 @@
 
 **2. задатак:**
 
-* $a = 10 \, \mathrm{cm}$, $H = 12 \, \mathrm{cm}$.
-* Апотема: $h = \sqrt{H^2 + \left(\frac{a}{2}\right)^2} = \sqrt{12^2 + 5^2} = 13 \, \mathrm{cm}$.
-* Основа: $B = a^2 = 100 \, \mathrm{cm}^2$.
-* Омотач: $M = 2ah = 2 \cdot 10 \cdot 13 = 260 \, \mathrm{cm}^2$.
-* **Површина:** $P = B + M = 100 + 260 = 360 \, \mathrm{cm}^2$.
-* **Запремина:** $V = \frac{1}{3}BH = \frac{1}{3} \cdot 100 \cdot 12 = 400 \, \mathrm{cm}^3$.
+* $a = 10 \mathrm{cm}$, $H = 12 \mathrm{cm}$.
+* Апотема: $h = \sqrt{H^2 + \left(\frac{a}{2}\right)^2} = \sqrt{12^2 + 5^2} = 13 \mathrm{cm}$.
+* Основа: $B = a^2 = 100 \mathrm{cm}^2$.
+* Омотач: $M = 2ah = 2 \cdot 10 \cdot 13 = 260 \mathrm{cm}^2$.
+* **Површина:** $P = B + M = 100 + 260 = 360 \mathrm{cm}^2$.
+* **Запремина:** $V = \frac{1}{3}BH = \frac{1}{3} \cdot 100 \cdot 12 = 400 \mathrm{cm}^3$.
 
 **3. задатак:**
 
-* Мрежа се састоји од **три подударна правоугаоника** димензија $4 \, \mathrm{cm} \times 4 \, \mathrm{cm}$ (омотач - ово су заправо квадрати) и **два једнакостранична троугла** странице $a = 4 \, \mathrm{cm}$ (основе).
+* Мрежа се састоји од **три подударна правоугаоника** димензија $4 \mathrm{cm} \times 4 \mathrm{cm}$ (омотач - ово су заправо квадрати) и **два једнакостранична троугла** странице $a = 4 \mathrm{cm}$ (основе).
 
 **4. задатак:**
 
 * **Експлицитни облик:** $3x - y + 3 = 0 \implies y = 3x + 3$.
-* **График (тачке за цртање):** За $x = 0 \implies y = 3$ (тачка $(0, 3)$). За $y = 0 \implies x = -1$ (тачка $(-1, 0)$).
+* **График (тачке за цртање):** За $x = 0 \implies y = 3$ добијамо тачку $(0, 3)$. За $y = 0 \implies x = -1$ добијамо тачку $(-1, 0)$.
 
 **5. задатак:**
 
-* Катете: $a_1 = 5 \, \mathrm{cm}$, $a_2 = 12 \, \mathrm{cm}$, висина $H = 5 \, \mathrm{cm}$.
-* Хипотенуза основе: $c = \sqrt{5^2 + 12^2} = 13 \, \mathrm{cm}$.
-* Основа: $B = \frac{5 \cdot 12}{2} = 30 \, \mathrm{cm}^2$.
-* Омотач: $M = (5 + 12 + 13) \cdot 5 = 30 \cdot 5 = 150 \, \mathrm{cm}^2$.
-* **Површина:** $P = 2B + M = 60 + 150 = 210 \, \mathrm{cm}^2$.
-* **Запремина:** $V = B \cdot H = 30 \cdot 5 = 150 \, \mathrm{cm}^3$.
+* Катете: $a_1 = 5 \mathrm{cm}$, $a_2 = 12 \mathrm{cm}$, висина $H = 5 \mathrm{cm}$.
+* Хипотенуза основе: $c = \sqrt{5^2 + 12^2} = 13 \mathrm{cm}$.
+* Основа: $B = \frac{5 \cdot 12}{2} = 30 \mathrm{cm}^2$.
+* Омотач: $M = (5 + 12 + 13) \cdot 5 = 30 \cdot 5 = 150 \mathrm{cm}^2$.
+* **Површина:** $P = 2B + M = 60 + 150 = 210 \mathrm{cm}^2$.
+* **Запремина:** $V = B \cdot H = 30 \cdot 5 = 150 \mathrm{cm}^3$.
 
 **6. задатак:**
 
-* $M = 260 \, \mathrm{cm}^2$, $h = 13 \, \mathrm{cm}$.
-* Из $M = 2ah \implies 260 = 2a \cdot 13 \implies 26a = 260 \implies a = 10 \, \mathrm{cm}$.
-* Висина: $H = \sqrt{h^2 - \left(\frac{a}{2}\right)^2} = \sqrt{13^2 - 5^2} = 12 \, \mathrm{cm}$.
-* Основа: $B = a^2 = 100 \, \mathrm{cm}^2$.
-* **Запремина:** $V = \frac{1}{3}BH = \frac{1}{3} \cdot 100 \cdot 12 = 400 \, \mathrm{cm}^3$.
+* $M = 260 \mathrm{cm}^2$, $h = 13 \mathrm{cm}$.
+* Из $M = 2ah \implies 260 = 2a \cdot 13 \implies 26a = 260 \implies a = 10 \mathrm{cm}$.
+* Висина: $H = \sqrt{h^2 - \left(\frac{a}{2}\right)^2} = \sqrt{13^2 - 5^2} = 12 \mathrm{cm}$.
+* Основа: $B = a^2 = 100 \mathrm{cm}^2$.
+* **Запремина:** $V = \frac{1}{3}BH = \frac{1}{3} \cdot 100 \cdot 12 = 400 \mathrm{cm}^3$.
 
 ---
 
@@ -145,38 +145,38 @@
 
 **2. задатак:**
 
-* $a = 18 \, \mathrm{cm}$, $h = 15 \, \mathrm{cm}$.
-* Висина: $H = \sqrt{h^2 - \left(\frac{a}{2}\right)^2} = \sqrt{15^2 - 9^2} = \sqrt{225 - 81} = \sqrt{144} = 12 \, \mathrm{cm}$.
-* Основа: $B = a^2 = 324 \, \mathrm{cm}^2$.
-* Омотач: $M = 2ah = 2 \cdot 18 \cdot 15 = 540 \, \mathrm{cm}^2$.
-* **Површина:** $P = B + M = 324 + 540 = 864 \, \mathrm{cm}^2$.
-* **Запремина:** $V = \frac{1}{3}BH = \frac{1}{3} \cdot 324 \cdot 12 = 324 \cdot 4 = 1296 \, \mathrm{cm}^3$.
+* $a = 18 \mathrm{cm}$, $h = 15 \mathrm{cm}$.
+* Висина: $H = \sqrt{h^2 - \left(\frac{a}{2}\right)^2} = \sqrt{15^2 - 9^2} = \sqrt{225 - 81} = \sqrt{144} = 12 \mathrm{cm}$.
+* Основа: $B = a^2 = 324 \mathrm{cm}^2$.
+* Омотач: $M = 2ah = 2 \cdot 18 \cdot 15 = 540 \mathrm{cm}^2$.
+* **Површина:** $P = B + M = 324 + 540 = 864 \mathrm{cm}^2$.
+* **Запремина:** $V = \frac{1}{3}BH = \frac{1}{3} \cdot 324 \cdot 12 = 324 \cdot 4 = 1296 \mathrm{cm}^3$.
 
 **3. задатак:**
 
-* Мрежа се састоји од **четири подударна правоугаоника** димензија $2,5 \, \mathrm{cm} \times 5 \, \mathrm{cm}$ (омотач) и **два квадрата** странице $a = 2,5 \, \mathrm{cm}$ (основе).
+* Мрежа се састоји од **четири подударна правоугаоника** димензија $2,5 \mathrm{cm} \times 5 \mathrm{cm}$ (омотач) и **два квадрата** странице $a = 2,5 \mathrm{cm}$ (основе).
 
 **4. задатак:**
 
 * **Експлицитни облик:** $2x - 3y - 6 = 0 \implies 3y = 2x - 6 \implies y = \frac{2}{3}x - 2$.
-* **График (тачке за цртање):** За $x = 0 \implies y = -2$ (тачка $(0, -2)$). За $y = 0 \implies x = 3$ (тачка $(3, 0)$).
+* **График (тачке за цртање):** За $x = 0 \implies y = -2$ добијамо тачку $(0, -2)$. За $y = 0 \implies x = 3$ добијамо тачку $(3, 0)$.
 
 **5. задатак:**
 
-* Катете: $a_1 = 12 \, \mathrm{cm}$, $a_2 = 16 \, \mathrm{cm}$, висина $H = 5 \, \mathrm{cm}$.
-* Хипотенуза основе: $c = \sqrt{12^2 + 16^2} = \sqrt{144 + 256} = 20 \, \mathrm{cm}$.
-* Основа: $B = \frac{12 \cdot 16}{2} = 96 \, \mathrm{cm}^2$.
-* Омотач: $M = (12 + 16 + 20) \cdot 5 = 48 \cdot 5 = 240 \, \mathrm{cm}^2$.
-* **Површина:** $P = 2B + M = 192 + 240 = 432 \, \mathrm{cm}^2$.
-* **Запремина:** $V = B \cdot H = 96 \cdot 5 = 480 \, \mathrm{cm}^3$.
+* Катете: $a_1 = 12 \mathrm{cm}$, $a_2 = 16 \mathrm{cm}$, висина $H = 5 \mathrm{cm}$.
+* Хипотенуза основе: $c = \sqrt{12^2 + 16^2} = \sqrt{144 + 256} = 20 \mathrm{cm}$.
+* Основа: $B = \frac{12 \cdot 16}{2} = 96 \mathrm{cm}^2$.
+* Омотач: $M = (12 + 16 + 20) \cdot 5 = 48 \cdot 5 = 240 \mathrm{cm}^2$.
+* **Површина:** $P = 2B + M = 192 + 240 = 432 \mathrm{cm}^2$.
+* **Запремина:** $V = B \cdot H = 96 \cdot 5 = 480 \mathrm{cm}^3$.
 
 **6. задатак:**
 
-* $V = 384 \, \mathrm{cm}^3$, $a = 12 \, \mathrm{cm}$.
-* Основа: $B = a^2 = 144 \, \mathrm{cm}^2$.
-* Из $V = \frac{1}{3}BH \implies 384 = \frac{1}{3} \cdot 144 \cdot H \implies 384 = 48H \implies H = 8 \, \mathrm{cm}$.
-* Апотема: $h = \sqrt{H^2 + \left(\frac{a}{2}\right)^2} = \sqrt{8^2 + 6^2} = 10 \, \mathrm{cm}$.
-* Омотач: $M = 2ah = 2 \cdot 12 \cdot 10 = 240 \, \mathrm{cm}^2$.
-* **Површина:** $P = B + M = 144 + 240 = 384 \, \mathrm{cm}^2$.
+* $V = 384 \mathrm{cm}^3$, $a = 12 \mathrm{cm}$.
+* Основа: $B = a^2 = 144 \mathrm{cm}^2$.
+* Из $V = \frac{1}{3}BH \implies 384 = \frac{1}{3} \cdot 144 \cdot H \implies 384 = 48H \implies H = 8 \mathrm{cm}$.
+* Апотема: $h = \sqrt{H^2 + \left(\frac{a}{2}\right)^2} = \sqrt{8^2 + 6^2} = 10 \mathrm{cm}$.
+* Омотач: $M = 2ah = 2 \cdot 12 \cdot 10 = 240 \mathrm{cm}^2$.
+* **Површина:** $P = B + M = 144 + 240 = 384 \mathrm{cm}^2$.
 
 ---
