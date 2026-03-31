@@ -3,6 +3,7 @@
 | [Фотографије][1]
 | [Каталог][2]
 | [Контролни][3]
+| [Видео][4]
 | 
 
 ## Системи линеарних једначина
@@ -26,3 +27,4 @@
 [1]: https://photos.app.goo.gl/PYH3Sxm88zwk6dMy9 "Фотографије табле"
 [2]: https://ndjapic.github.io/zayopa/m8/09-sistem/ "Каталог линкова"
 [3]: https://drive.google.com/drive/folders/1ooY11BK_NLcM93FrP_f8onsNSQCGHn6I?usp=sharing "Контролни задаци"
+[4]: https://youtu.be/u7tGUS-HJHw?si=vQmQBgELaVdXC0s0 "Једнаки или супротни коефицијенти"
