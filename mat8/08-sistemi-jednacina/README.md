@@ -24,6 +24,8 @@
 ### Системи линеарних једначина у природним наукама
 ### Системи линеарних једначина у реалном окружењу
 
+Однос два броја је 4:9. Ако оба повећамо за 5, њихов однос би био 1:2. Израчунај те бројеве.
+
 [1]: https://photos.app.goo.gl/PYH3Sxm88zwk6dMy9 "Фотографије табле"
 [2]: https://ndjapic.github.io/zayopa/m8/09-sistem/ "Каталог линкова"
 [3]: https://drive.google.com/drive/folders/1ooY11BK_NLcM93FrP_f8onsNSQCGHn6I?usp=sharing "Контролни задаци"
