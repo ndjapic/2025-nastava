@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Припремна настава за завршни испит - Математика</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        @page {
+            size: A4;
+            margin: 20mm 15mm;
+            @bottom-right {
+                content: "Страна " counter(page);
+                font-family: Arial, sans-serif;
+                font-size: 9pt;
+                color: #666;
+            }
+        }
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.6;
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            border-bottom: 3px solid #1a446c;
+            padding-bottom: 12px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .title {
+            font-size: 18pt;
+            font-weight: bold;
+            color: #1a446c;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .subtitle {
+            font-size: 12pt;
+            color: #444;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+        .student-info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 25px;
+        }
+        .student-info-table td {
+            border: none;
+            padding: 5px 0;
+            font-size: 11pt;
+        }
+        .section-title {
+            font-size: 13pt;
+            font-weight: bold;
+            color: #fff;
+            background-color: #1a446c;
+            padding: 6px 12px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+        .task {
+            margin-bottom: 18px;
+            padding: 12px 15px;
+            background-color: #fcfcfc;
+            border: 1px solid #e0e0e0;
+            border-left: 5px solid #1a446c;
+            border-radius: 0 4px 4px 0;
+            page-break-inside: avoid;
+        }
+        .task-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #111;
+        }
+        .task-body {
+            margin-bottom: 5px;
+        }
+        .math {
+            font-family: 'Times New Roman', serif;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 12pt;
+            color: #000;
+        }
+        .square-blank {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            border: 1.5px solid #333;
+            background-color: #fff;
+            vertical-align: middle;
+            margin: 0 6px;
+            border-radius: 3px;
+        }
+        .line-blank {
+            display: inline-block;
+            width: 180px;
+            border-bottom: 1px dashed #333;
+            height: 18px;
+            margin-left: 4px;
+        }
+        .line-blank-long {
+            display: inline-block;
+            width: 350px;
+            border-bottom: 1px dashed #333;
+            height: 18px;
+            margin-left: 4px;
+        }
+        .workspace {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        .workspace-line {
+            border-bottom: 1px dashed #ccc;
+            height: 24px;
+            margin-top: 4px;
+            width: 100%;
+        }
+        table.data-table {
+            border-collapse: collapse;
+            margin: 12px 0;
+            width: 50%;
+        }
+        table.data-table th, table.data-table td {
+            border: 1px solid #aaa;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        table.data-table th {
+            background-color: #f0f4f8;
+            color: #1a446c;
+            font-weight: bold;
+        }
+        .options-list {
+            margin-top: 8px;
+            margin-bottom: 5px;
+            padding-left: 20px;
+        }
+        .options-list div {
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="title">Припремна настава за завршни испит</div>
+        <div class="subtitle">Математика &bull; Трећи час: Основни појмови, рачун и свакодневна математика</div>
+    </div>
+
+    <table class="student-info-table">
+        <tr>
+            <td style="width: 65%;"><strong>Име и презиме ученика:</strong> <span class="line-blank" style="width: 250px;"></span></td>
+            <td style="width: 35%; text-align: right;"><strong>Датум:</strong> <span class="line-blank" style="width: 120px;"></span></td>
+        </tr>
+    </table>
+
+    <div class="section-title">Рад на часу</div>
+
+    <div class="task">
+        <div class="task-title">1. Задатак (Сабирање и одузимање у контексту новца)</div>
+        <div class="task-body">
+            Марко је кренуо у продавницу и у новчанику има <span class="math">500</span> динара. Купио је чоколаду која кошта <span class="math">120</span> динара и сок који кошта <span class="math">80</span> динара.
+            <div class="workspace">
+                а) Колико укупно коштају чоколада и сок?<br>
+                Рачун: <div class="workspace-line"></div>
+                Одговор: Укупно коштају <span class="line-blank" style="width: 100px;"></span> динара.
+            </div>
+            <div class="workspace" style="margin-top: 15px;">
+                б) Колико је динара кусура Марко добио?<br>
+                Рачун: <div class="workspace-line"></div>
+                Одговор: Марко је добио <span class="line-blank" style="width: 100px;"></span> динара кусура.
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">2. Задатак (Поређење бројева)</div>
+        <div class="task-body">
+            Упиши знак <span class="math">&gt;</span> (веће), <span class="math">&lt;</span> (мање) или <span class="math">=</span> (једнако) у квадратић тако да тврђење буде тачно:
+            <div style="margin-top: 12px; line-height: 2.5;">
+                а) <span class="math">150</span> <span class="square-blank"></span> <span class="math">205</span><br>
+                б) <span class="math">430</span> <span class="square-blank"></span> <span class="math">340</span><br>
+                в) <span class="math">600</span> <span class="square-blank"></span> <span class="math">600</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">3. Задатак (Препознавање геометријских облика)</div>
+        <div class="task-body">
+            Поред сваког описа напиши назив облика (понуђене речи: <strong>круг, квадрат, троугао</strong>):
+            <div style="margin-top: 10px; line-height: 2;">
+                а) Има 3 странице и 3 темена: <span class="line-blank"></span><br>
+                б) Округао је и нема темена: <span class="line-blank"></span><br>
+                в) Има 4 једнаке странице и 4 темена: <span class="line-blank"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">4. Задатак (Читање из табеле)</div>
+        <div class="task-body">
+            У табели је приказано колико је која девојчица убрала јабука:
+            <table class="data-table">
+                <tr>
+                    <th>Име девојчице</th>
+                    <th>Број убраних јабука</th>
+                </tr>
+                <tr>
+                    <td>Ана</td>
+                    <td>12 јабука</td>
+                </tr>
+                <tr>
+                    <td>Мира</td>
+                    <td>8 јабука</td>
+                </tr>
+                <tr>
+                    <td>Јелена</td>
+                    <td>15 јабука</td>
+                </tr>
+            </table>
+            <div style="margin-top: 10px; line-height: 2;">
+                а) Која девојчица је убрала највише јабука? <span class="line-blank"></span><br>
+                б) Колико је јабука убрала Мира? <span class="line-blank"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">5. Задатак (Основно множење и дељење)</div>
+        <div class="task-body">
+            Израчунај и упиши резултат:
+            <div style="margin-top: 10px; line-height: 2.2;">
+                а) <span class="math">5 &times; 4 =</span> <span class="line-blank" style="width: 80px;"></span><br>
+                б) <span class="math">3 &times; 6 =</span> <span class="line-blank" style="width: 80px;"></span><br>
+                в) <span class="math">20 : 2 =</span> <span class="line-blank" style="width: 80px;"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">6. Задатак (Разломци &ndash; појам половине)</div>
+        <div class="task-body">
+            Мама је исекла пицу на два једнака дела. Јован је појео један део. Који део пице је Јован појео? Заокружи слово испред тачног одговора:
+            <div class="options-list">
+                <div>а) Целу пицу</div>
+                <div>б) Половину пице (<span class="math"><sup>1</sup>&frasl;<sub>2</sub></span>)</div>
+                <div>в) Четвртину пице (<span class="math"><sup>1</sup>&frasl;<sub>4</sub></span>)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">7. Задатак (Мерење времена)</div>
+        <div class="task-body">
+            Школски час почиње у <span class="math">8:00</span> сати и траје <span class="math">45</span> минута. У колико сати се завршава школски час?
+            <div style="margin-top: 10px;">
+                Одговор: Школски час се завршава у <span class="line-blank" style="width: 60px;"></span> сати и <span class="line-blank" style="width: 60px;"></span> минута.
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">8. Задатак (Проналажење непознатог броја)</div>
+        <div class="task-body">
+            Који број треба да стоји уместо квадратића да би једнакост била тачна?
+            <div style="margin-top: 10px; line-height: 2.2;">
+                а) <span class="square-blank"></span> <span class="math">+ 7 = 12</span> &nbsp;&nbsp;&nbsp;&nbsp; (Број у квадратићу је: <span class="line-blank" style="width: 60px;"></span>)<br>
+                б) <span class="math">15 &minus;</span> <span class="square-blank"></span> <span class="math">= 10</span> &nbsp;&nbsp;&nbsp;&nbsp; (Број у квадратићу је: <span class="line-blank" style="width: 60px;"></span>)
+            </div>
+        </div>
+    </div>
+
+    <div class="section-title" style="page-break-before: auto;">Рад код куће (Домаћи задатак)</div>
+
+    <div class="task">
+        <div class="task-title">9. Задатак (Новац)</div>
+        <div class="task-body">
+            Ана жели да купи свеску која кошта <span class="math">150</span> динара и оловку која кошта <span class="math">50</span> динара.
+            <div class="workspace">
+                а) Колико укупно новца треба Ани за куповину?<br>
+                Рачун: <div class="workspace-line"></div>
+                Одговор: Укупно јој треба <span class="line-blank" style="width: 100px;"></span> динара.
+            </div>
+            <div class="workspace" style="margin-top: 15px;">
+                б) Ако Ани бака да <span class="math">300</span> динара, да ли ће имати довољно новца?<br>
+                Одговор: <span class="line-blank-long"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">10. Задатак (Поређење бројева)</div>
+        <div class="task-body">
+            Упиши знак <span class="math">&gt;</span>, <span class="math">&lt;</span> или <span class="math">=</span> у квадратић:
+            <div style="margin-top: 12px; line-height: 2.5;">
+                а) <span class="math">78</span> <span class="square-blank"></span> <span class="math">87</span><br>
+                б) <span class="math">500</span> <span class="square-blank"></span> <span class="math">499</span><br>
+                в) <span class="math">250</span> <span class="square-blank"></span> <span class="math">250</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">11. Задатак (Геометријски облици)</div>
+        <div class="task-body">
+            Погледај предмете око себе у соби. Напиши који облик имају (понуђене речи: <strong>круг, квадрат, правоугаоник, троугао</strong>):
+            <div style="margin-top: 10px; line-height: 2;">
+                а) Прозор или врата имају облик: <span class="line-blank"></span><br>
+                б) Сат на зиду (или тањир) има облик: <span class="line-blank"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">12. Задатак (Читање из табеле)</div>
+        <div class="task-body">
+            У табели су приказане температуре измерене у три града у Србији:
+            <table class="data-table">
+                <tr>
+                    <th>Град</th>
+                    <th>Температура</th>
+                </tr>
+                <tr>
+                    <td>Београд</td>
+                    <td>22 &deg;C</td>
+                </tr>
+                <tr>
+                    <td>Ниш</td>
+                    <td>25 &deg;C</td>
+                </tr>
+                <tr>
+                    <td>Крагујевац</td>
+                    <td>20 &deg;C</td>
+                </tr>
+            </table>
+            <div style="margin-top: 10px; line-height: 2;">
+                а) У ком граду је било најтоплије? <span class="line-blank"></span><br>
+                б) Колика је температура била у Крагујевцу? <span class="line-blank"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">13. Задатак (Множење и дељење)</div>
+        <div class="task-body">
+            Израчунај и упиши резултат:
+            <div style="margin-top: 10px; line-height: 2.2;">
+                а) <span class="math">2 &times; 7 =</span> <span class="line-blank" style="width: 80px;"></span><br>
+                б) <span class="math">4 &times; 10 =</span> <span class="line-blank" style="width: 80px;"></span><br>
+                в) <span class="math">12 : 3 =</span> <span class="line-blank" style="width: 80px;"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">14. Задатак (Појам половине)</div>
+        <div class="task-body">
+            Ако Милан има <span class="math">10</span> бомбона и половину (<span class="math"><sup>1</sup>&frasl;<sub>2</sub></span>) да свом брату, колико бомбона ће добити брат?
+            <div class="workspace">
+                Рачун: <div class="workspace-line"></div>
+                Одговор: Брат ће добити <span class="line-blank" style="width: 80px;"></span> бомбона.
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">15. Задатак (Мерење времена и оријентација)</div>
+        <div class="task-body">
+            Милош је кренуо да гледа цртани филм у <span class="math">19:00</span> сати. Цртани филм траје пола сата (<span class="math">30</span> минута). У колико сати се завршава цртани филм?
+            <div style="margin-top: 10px;">
+                Одговор: Завршава се у <span class="line-blank" style="width: 60px;"></span> сати и <span class="line-blank" style="width: 60px;"></span> минута.
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">16. Задатак (Једноставне једнакости)</div>
+        <div class="task-body">
+            Упиши број који недостаје у квадратић тако да једнакост буде тачна:
+            <div style="margin-top: 10px; line-height: 2.2;">
+                а) <span class="math">6 +</span> <span class="square-blank"></span> <span class="math">= 20</span> &nbsp;&nbsp;&nbsp;&nbsp; (Број у квадратићу је: <span class="line-blank" style="width: 60px;"></span>)<br>
+                б) <span class="square-blank"></span> <span class="math">&minus; 4 = 11</span> &nbsp;&nbsp;&nbsp;&nbsp; (Број у квадратићу је: <span class="line-blank" style="width: 60px;"></span>)
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
