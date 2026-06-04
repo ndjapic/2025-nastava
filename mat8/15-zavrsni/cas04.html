@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Припремна настава за завршни испит - Математика - Четврти час</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        @page {
+            size: A4;
+            margin: 20mm 15mm;
+            @bottom-right {
+                content: "Страна " counter(page);
+                font-family: Arial, sans-serif;
+                font-size: 9pt;
+                color: #000;
+            }
+        }
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: #000;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            border-bottom: 1px solid #000;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .title {
+            font-size: 16pt;
+            font-weight: bold;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+        .subtitle {
+            font-size: 11pt;
+            font-weight: normal;
+        }
+        .student-info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .student-info-table td {
+            border: none;
+            padding: 4px 0;
+            font-size: 11pt;
+        }
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #000;
+            border-bottom: 2px solid #000;
+            padding-bottom: 2px;
+            margin-top: 20px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+        .task {
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px dashed #ccc;
+            page-break-inside: avoid;
+        }
+        .task:last-child {
+            border-bottom: none;
+        }
+        .task-title {
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+        .task-body {
+            margin-bottom: 4px;
+        }
+        .math {
+            font-family: 'Times New Roman', serif;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 11.5pt;
+        }
+        .square-blank {
+            display: inline-block;
+            width: 22px;
+            height: 22px;
+            border: 1px solid #000;
+            vertical-align: middle;
+            margin: 0 4px;
+        }
+        .line-blank {
+            display: inline-block;
+            width: 140px;
+            border-bottom: 1px solid #000;
+            height: 16px;
+            margin-left: 2px;
+        }
+        .line-blank-long {
+            display: inline-block;
+            width: 300px;
+            border-bottom: 1px solid #000;
+            height: 16px;
+            margin-left: 2px;
+        }
+        .workspace {
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        .workspace-line {
+            border-bottom: 1px dashed #888;
+            height: 22px;
+            margin-top: 2px;
+            width: 100%;
+        }
+        table.data-table {
+            border-collapse: collapse;
+            margin: 10px 0;
+            width: 50%;
+        }
+        table.data-table th, table.data-table td {
+            border: 1px solid #000;
+            padding: 6px 10px;
+            text-align: left;
+        }
+        table.data-table th {
+            background-color: #fff;
+            font-weight: bold;
+        }
+        .options-list {
+            margin-top: 6px;
+            margin-bottom: 4px;
+            padding-left: 15px;
+        }
+        .options-list div {
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="title">Припремна настава за завршни испит</div>
+        <div class="subtitle">Математика &bull; Четврти час: Мерење, текстуални задаци и подаци</div>
+    </div>
+
+    <table class="student-info-table">
+        <tr>
+            <td style="width: 65%;"><strong>Име и презиме ученика:</strong> <span class="line-blank" style="width: 220px;"></span></td>
+            <td style="width: 35%; text-align: right;"><strong>Датум:</strong> <span class="line-blank" style="width: 110px;"></span></td>
+        </tr>
+    </table>
+
+    <div class="section-title">Рад на часу</div>
+
+    <div class="task">
+        <div class="task-title">1. Задатак (Текстуални задатак - сабирање)</div>
+        <div class="task-body">
+            Милан има <span class="math">15</span> кликера, а Јован има за <span class="math">5</span> кликера више од њега.
+            <div class="workspace">
+                Колико кликера има Јован?<br>
+                Рачун: <div class="workspace-line"></div>
+                Одговор: Јован има <span class="line-blank" style="width: 80px;"></span> кликера.
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">2. Задатак (Текстуални задатак - одузимање)</div>
+        <div class="task-body">
+            У корпи је било <span class="math">25</span> јаја. Мама је потрошила <span class="math">5</span> јаја за торту.
+            <div class="workspace">
+                Колико је јаја остало у корпи?<br>
+                Рачун: <div class="workspace-line"></div>
+                Одговор: У корпи је остало <span class="line-blank" style="width: 80px;"></span> јаја.
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">3. Задатак (Мерење дужине)</div>
+        <div class="task-body">
+            Заокружи реч која представља меру за <strong>дужину</strong>:
+            <div class="options-list">
+                а) Килограм (kg)<br>
+                б) Метар (m)<br>
+                в) Литар (l)
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">4. Задатак (Мерење масе)</div>
+        <div class="task-body">
+            Ана је на пијаци купила <span class="math">2 kg</span> банана и <span class="math">3 kg</span> јабука.
+            <div class="workspace">
+                Колико је килограма (kg) воћа укупно купила Ана?<br>
+                Рачун: <div class="workspace-line"></div>
+                Одговор: Ана је укупно купила <span class="line-blank" style="width: 80px;"></span> kg воћа.
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">5. Задатак (Геометрија - Правоугаоник)</div>
+        <div class="task-body">
+            Поред описа напиши назив облика (понуђене речи: <strong>круг, правоугаоник</strong>):
+            <div style="margin-top: 8px;">
+                Има 4 странице (две дуже и две краће) и 4 темена: <span class="line-blank" style="width: 180px;"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">6. Задатак (Читање података)</div>
+        <div class="task-body">
+            На паркингу се налазе аутомобили различитих боја:
+            <table class="data-table">
+                <tr>
+                    <th>Боја аутомобила</th>
+                    <th>Број аутомобила</th>
+                </tr>
+                <tr>
+                    <td>Црвени</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Плави</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Бели</td>
+                    <td>7</td>
+                </tr>
+            </table>
+            <div style="margin-top: 8px; line-height: 1.8;">
+                а) Којих аутомобила има највише? <span class="line-blank"></span><br>
+                б) Колико има плавих аутомобила? <span class="line-blank"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">7. Задатак (Препознавање вредности новца)</div>
+        <div class="task-body">
+            Заокружи новчаницу која има <strong>већу</strong> вредност:
+            <div class="options-list">
+                а) Новчаница од 100 динара<br>
+                б) Новчаница од 200 динара
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">8. Задатак (Једнако дељење)</div>
+        <div class="task-body">
+            Учитељица жели да подели <span class="math">12</span> оловака на <span class="math">3</span> ученика тако да свако добије исти број.
+            <div class="workspace">
+                Колико ће оловака добити сваки ученик?<br>
+                Рачун: <div class="workspace-line"></div>
+                Одговор: Сваки ученик ће добити <span class="line-blank" style="width: 80px;"></span> оловаке.
+            </div>
+        </div>
+    </div>
+
+    <div class="section-title">Рад код куће (Домаћи задатак)</div>
+
+    <div class="task">
+        <div class="task-title">9. Задатак (Текстуални задатак - сабирање)</div>
+        <div class="task-body">
+            Марија има <span class="math">12</span> бојица, а Теодора има за <span class="math">4</span> бојице више од ње.
+            <div class="workspace">
+                Колико бојица има Теодора?<br>
+                Рачун: <div class="workspace-line"></div>
+                Одговор: Теодора има <span class="line-blank" style="width: 80px;"></span> бојице.
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">10. Задатак (Текстуални задатак - одузимање)</div>
+        <div class="task-body">
+            У кутији је било <span class="math">30</span> бомбона. Деца су појела <span class="math">10</span> бомбона.
+            <div class="workspace">
+                Колико је бомбона остало у кутији?<br>
+                Рачун: <div class="workspace-line"></div>
+                Одговор: У кутији је остало <span class="line-blank" style="width: 80px;"></span> бомбона.
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">11. Задатак (Мерење дужине/висине)</div>
+        <div class="task-body">
+            Марко је висок <span class="math">140 cm</span>, а Стефан је висок <span class="math">135 cm</span>. 
+            <div class="workspace">
+                Ко је виши, Марко или Стефан?<br>
+                Одговор: Виши је <span class="line-blank" style="width: 150px;"></span>.
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">12. Задатак (Мерење запремине течности)</div>
+        <div class="task-body">
+            У флаши се налази <span class="math">2 l</span> (литра) воде. Софија је у флашу досула још <span class="math">1 l</span> воде.
+            <div class="workspace">
+                Колико литара воде има сада у флаши?<br>
+                Рачун: <div class="workspace-line"></div>
+                Одговор: У флаши сада има <span class="line-blank" style="width: 80px;"></span> l воде.
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">13. Задатак (Геометријски облици)</div>
+        <div class="task-body">
+            Погледај своју свеску или уџбеник из математике. Који облик има предња страна свеске? 
+            <div class="options-list">
+                Заокружи тачан одговор:<br>
+                а) Круг<br>
+                б) Правоугаоник<br>
+                в) Троугао
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">14. Задатак (Читање података)</div>
+        <div class="task-body">
+            У згради су пребројани кућни љубимци:
+            <table class="data-table">
+                <tr>
+                    <th>Кућни љубимац</th>
+                    <th>Број у згради</th>
+                </tr>
+                <tr>
+                    <td>Пси</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Мачке</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Папагаји</td>
+                    <td>2</td>
+                </tr>
+            </table>
+            <div style="margin-top: 8px; line-height: 1.8;">
+                а) Којих кућних љубимаца има најмање? <span class="line-blank"></span><br>
+                б) Колико укупно има мачака у згради? <span class="line-blank"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">15. Задатак (Препознавање вредности новца)</div>
+        <div class="task-body">
+            Заокружи новчаницу која има <strong>мању</strong> вредност:
+            <div class="options-list">
+                а) Новчаница од 500 динара<br>
+                б) Новчаница од 50 динара
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">16. Задатак (Једнако дељење)</div>
+        <div class="task-body">
+            Милан жели да подели <span class="math">10</span> јабука на <span class="math">2</span> тањира једнако.
+            <div class="workspace">
+                Колико ће јабука бити на сваком тањиру?<br>
+                Рачун: <div class="workspace-line"></div>
+                Одговор: На сваком тањиру ће бити <span class="line-blank" style="width: 80px;"></span> јабуке.
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
