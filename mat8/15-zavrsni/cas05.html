@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Припремна настава за завршни испит - Математика - Пети час</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        @page {
+            size: A4;
+            margin: 20mm 15mm;
+            @bottom-right {
+                content: "Страна " counter(page);
+                font-family: Arial, sans-serif;
+                font-size: 9pt;
+                color: #000;
+            }
+        }
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: #000;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            border-bottom: 1px solid #000;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .title {
+            font-size: 16pt;
+            font-weight: bold;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+        .subtitle {
+            font-size: 11pt;
+            font-weight: normal;
+        }
+        .student-info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .student-info-table td {
+            border: none;
+            padding: 4px 0;
+            font-size: 11pt;
+        }
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #000;
+            border-bottom: 2px solid #000;
+            padding-bottom: 2px;
+            margin-top: 20px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+        .task {
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px dashed #ccc;
+            page-break-inside: avoid;
+        }
+        .task:last-child {
+            border-bottom: none;
+        }
+        .task-title {
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+        .task-body {
+            margin-bottom: 4px;
+        }
+        .math {
+            font-family: 'Times New Roman', serif;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 11.5pt;
+        }
+        .line-blank {
+            display: inline-block;
+            width: 140px;
+            border-bottom: 1px solid #000;
+            height: 16px;
+            margin-left: 2px;
+        }
+        .workspace {
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        .workspace-line {
+            border-bottom: 1px dashed #888;
+            height: 22px;
+            margin-top: 2px;
+            width: 100%;
+        }
+        .options-list {
+            margin-top: 6px;
+            margin-bottom: 4px;
+            padding-left: 15px;
+        }
+        .options-list div {
+            margin-bottom: 4px;
+        }
+        .connect-table {
+            width: 40%;
+            margin: 10px 0;
+        }
+        .connect-table td {
+            padding: 5px;
+            font-size: 12pt;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="title">Припремна настава за завршни испит</div>
+        <div class="subtitle">Математика &bull; Пети час: Просторна оријентација, низови и логика</div>
+    </div>
+
+    <table class="student-info-table">
+        <tr>
+            <td style="width: 65%;"><strong>Име и презиме ученика:</strong> <span class="line-blank" style="width: 220px;"></span></td>
+            <td style="width: 35%; text-align: right;"><strong>Датум:</strong> <span class="line-blank" style="width: 110px;"></span></td>
+        </tr>
+    </table>
+
+    <div class="section-title">Рад на часу</div>
+
+    <div class="task">
+        <div class="task-title">1. Задатак (Просторна оријентација)</div>
+        <div class="task-body">
+            Замисли да испред тебе на столу стоје свеска, оловка са десне стране свеске и гумица са леве стране свеске.
+            <div class="options-list">
+                Заокружи реч која тачно допуњава реченицу:<br>
+                Гумица се налази са <span class="line-blank" style="width: 100px;"></span> стране свеске.<br>
+                а) леве &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; б) десне
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">2. Задатак (Препознавање и наставак низа)</div>
+        <div class="task-body">
+            Пажљиво погледај бројеве у низу и упиши два броја која недостају:
+            <div style="margin-top: 8px; font-size: 13pt; letter-spacing: 2px;">
+                <span class="math">2, 4, 6, 8,</span> <span class="line-blank" style="width: 50px;"></span>, <span class="line-blank" style="width: 50px;"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">3. Задатак (Време - Дани у недељи)</div>
+        <div class="task-body">
+            Данас је <strong>уторак</strong>. Који дан је био јуче, а који дан ће бити сутра?
+            <div style="margin-top: 8px; line-height: 2;">
+                а) Јуче је био: <span class="line-blank" style="width: 150px;"></span><br>
+                б) Сутра ће бити: <span class="line-blank" style="width: 150px;"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">4. Задатак (Римски бројеви)</div>
+        <div class="task-body">
+            Повежи линијом арапски број са његовим римским бројем (као што је започето):
+            <table class="connect-table">
+                <tr>
+                    <td><strong>1</strong></td>
+                    <td style="text-align: right; padding-right: 30px;">&bull;</td>
+                    <td>&bull;</td>
+                    <td><strong>V</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>5</strong></td>
+                    <td style="text-align: right; padding-right: 30px;">&bull;</td>
+                    <td>&bull;</td>
+                    <td><strong>X</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>10</strong></td>
+                    <td style="text-align: right; padding-right: 30px;">&bull;</td>
+                    <td>&bull;</td>
+                    <td><strong>I</strong></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">5. Задатак (Редни бројеви)</div>
+        <div class="task-body">
+            Марко, Никола и Лука су трчали трку. Марко је стигао први, Никола други, а Лука трећи.
+            <div style="margin-top: 8px; line-height: 2;">
+                а) Напиши бројем на које је место стигао Марко: <span class="line-blank" style="width: 60px;"></span>.<br>
+                б) Напиши бројем на које је место стигао Лука: <span class="line-blank" style="width: 60px;"></span>. <br>
+                <i>(Помоћ: пази на тачку иза редног броја!)</i>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">6. Задатак (Делови целине - Четвртина)</div>
+        <div class="task-body">
+            Јован је поделио чоколаду на <span class="math">4</span> једнака дела. Свом другу је дао један део.
+            <div class="options-list">
+                Који део чоколаде је дао другу? Заокружи тачан одговор:<br>
+                а) Половину чоколаде (<span class="math"><sup>1</sup>&frasl;<sub>2</sub></span>)<br>
+                б) Четвртину чоколаде (<span class="math"><sup>1</sup>&frasl;<sub>4</sub></span>)
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">7. Задатак (Једноставна комбинаторика / логика)</div>
+        <div class="task-body">
+            Ана има једну <strong>белу</strong> и једну <strong>црвену</strong> мајицу. Такође, има један <strong>плави</strong> шорц. 
+            <div style="margin-top: 6px;">
+                Напиши које две различите одевне комбинације Ана може да обуче:<br>
+                1. Комбинација: <span class="line-blank" style="width: 120px;"></span> мајица и плави шорц.<br>
+                2. Комбинација: <span class="line-blank" style="width: 120px;"></span> мајица и плави шорц.
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">8. Задатак (Сабирање три броја у контексту куповине)</div>
+        <div class="task-body">
+            У књижари оловка кошта <span class="math">30</span> динара, лењир кошта <span class="math">50</span> динара, а гумица кошта <span class="math">20</span> динара.
+            <div class="workspace">
+                Колико укупно коштају ова три предмета?<br>
+                Рачун: <div class="workspace-line"></div>
+                Одговор: Ова три предмета укупно коштају <span class="line-blank" style="width: 100px;"></span> динара.
+            </div>
+        </div>
+    </div>
+
+    <div class="section-title">Рад код куће (Домаћи задатак)</div>
+
+    <div class="task">
+        <div class="task-title">9. Задатак (Просторна оријентација)</div>
+        <div class="task-body">
+            Када пишеш у свесци, оловку држиш у руци, а лампа ти стоји изнад стола.
+            <div class="options-list">
+                Заокружи реч која тачно допуњава реченицу:<br>
+                Лампа се налази <span class="line-blank" style="width: 100px;"></span> стола.<br>
+                а) изнад &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; б) испод
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">10. Задатак (Препознавање и наставак низа)</div>
+        <div class="task-body">
+            Пажљиво погледај бројеве у низу и упиши два броја која недостају:
+            <div style="margin-top: 8px; font-size: 13pt; letter-spacing: 2px;">
+                <span class="math">5, 10, 15, 20,</span> <span class="line-blank" style="width: 50px;"></span>, <span class="line-blank" style="width: 50px;"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">11. Задатак (Време - Дани у недељи)</div>
+        <div class="task-body">
+            Данас је <strong>петак</strong>. Који дан је био јуче, а који дан ће бити сутра?
+            <div style="margin-top: 8px; line-height: 2;">
+                а) Јуче је био: <span class="line-blank" style="width: 150px;"></span><br>
+                б) Сутра ће бити: <span class="line-blank" style="width: 150px;"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">12. Задатак (Римски бројеви)</div>
+        <div class="task-body">
+            Поред арапског броја напиши његов римски број (понуђени римски бројеви: <strong>I, V, X</strong>):
+            <div style="margin-top: 8px; line-height: 2;">
+                а) Број 5 се пише као: <span class="line-blank" style="width: 60px;"></span><br>
+                б) Број 10 се пише као: <span class="line-blank" style="width: 60px;"></span><br>
+                в) Број 1 се пише као: <span class="line-blank" style="width: 60px;"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">13. Задатак (Редни бројеви)</div>
+        <div class="task-body">
+            Ученици стоје у реду за ужину. Петар је 4. у реду, а Милош стоји одмах иза њега.
+            <div style="margin-top: 8px;">
+                Који је по реду Милош? Напиши бројем: Он је <span class="line-blank" style="width: 60px;"></span> у реду.
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">14. Задатак (Делови целине)</div>
+        <div class="task-body">
+            Када целу јабуку пресечемо на четири једнака дела, сваки тај део се назива:
+            <div class="options-list">
+                Заокружи тачан одговор:<br>
+                а) Половина<br>
+                б) Четвртина
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">15. Задатак (Једноставна комбинаторика / логика)</div>
+        <div class="task-body">
+            Дејан за ужину може да изабере једно воће (<strong>јабуку</strong> или <strong>банану</strong>) и један напитак (<strong>сок</strong>).
+            <div style="margin-top: 6px;">
+                Напиши које две различите комбинације за ужину Дејан може да направи:<br>
+                1. Комбинација: <span class="line-blank" style="width: 120px;"></span> и сок.<br>
+                2. Комбинација: <span class="line-blank" style="width: 120px;"></span> и сок.
+            </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="task-title">16. Задатак (Сабирање три броја)</div>
+        <div class="task-body">
+            Милош је у првој кутији имао <span class="math">6</span> кликера, у другој <span class="math">4</span> кликера, а у трећој <span class="math">5</span> кликера.
+            <div class="workspace">
+                Колико укупно кликера има Милош у све три кутије?<br>
+                Рачун: <div class="workspace-line"></div>
+                Одговор: Милош укупно има <span class="line-blank" style="width: 100px;"></span> кликера.
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
